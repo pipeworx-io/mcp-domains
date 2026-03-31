@@ -1,0 +1,16 @@
+{
+  "name": "@pipeworx/mcp-domains",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "pipeworx",
+    "domains"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
