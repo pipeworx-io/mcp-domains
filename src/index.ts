@@ -1,10 +1,3 @@
-/**
- * Domains MCP — Domainsdb.info API (free, no auth)
- *
- * Tools:
- * - search_domains: search for registered domains matching a name/keyword
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -19,6 +12,14 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * Domains MCP — Domainsdb.info API (free, no auth)
+ *
+ * Tools:
+ * - search_domains: search for registered domains matching a name/keyword
+ */
+
 
 const BASE_URL = 'https://api.domainsdb.info/v1';
 

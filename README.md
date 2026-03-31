@@ -1,12 +1,13 @@
-# @pipeworx/mcp-domains
+# mcp-domains
 
-MCP server for domain WHOIS data — availability checks and registration info.
+Domains MCP — Domainsdb.info API (free, no auth)
+
+Part of the [Pipeworx](https://pipeworx.io) open MCP gateway.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `search_domains` | Search for registered domains matching a keyword, with optional TLD filtering |
 
 ## Quick Start
 
@@ -22,7 +23,7 @@ Add to your MCP client config:
 }
 ```
 
-Or run via CLI:
+Or use the CLI:
 
 ```bash
 npx pipeworx use domains
