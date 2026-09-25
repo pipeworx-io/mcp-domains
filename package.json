@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-domains",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Domains MCP — domain registration lookup + availability search over live",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-4ae195b5863ea965572b5245e1920780120ff60d67b8c20d015b11f513d6077b",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-53a109a60eff51e68dd7314740bd303f8d391c1761bb2fcd85edfc7d3ce69f70",
+    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
   }
 }
