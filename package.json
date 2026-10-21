@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-domains",
-  "version": "0.2.3",
-  "description": "Domains MCP — domain registration lookup + availability search over live",
+  "version": "0.2.4",
+  "description": "Domains MCP — domain registration lookup + availability search over live RDAP (ICANN standard, keyless). We own this end-to-end — no dependency on gated third-party domain APIs. Availability queries the AUTHORITATIVE registry RDAP server per TLD (resolved via the IANA bootstrap), not the flaky rdap.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-53a109a60eff51e68dd7314740bd303f8d391c1761bb2fcd85edfc7d3ce69f70",
-    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
+    "sourceHash": "v1-8494aac58e756ed2284e87a3fd27b7eea4581adc3d785f0cd00f9d70f446db7f",
+    "sourceCommit": "5749f83c0ea115fab4c0c0ef04b66b05f2507d67"
   }
 }
