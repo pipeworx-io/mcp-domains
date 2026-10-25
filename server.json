@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/domains",
   "title": "Domains",
   "description": "Domains MCP — domain registration lookup + availability search over live RDAP (ICANN standard…",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "websiteUrl": "https://pipeworx.io/packs/domains",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-domains",
