@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-domains",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "description": "Domains MCP — domain registration lookup + availability search over live RDAP (ICANN standard, keyless). We own this end-to-end — no dependency on gated third-party domain APIs. Availability queries the AUTHORITATIVE registry RDAP server per TLD (resolved via the IANA bootstrap), not the flaky rdap.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-domains": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "domains"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-domains.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/domains",
   "pipeworx": {
-    "sourceHash": "v1-b3786f3eb12d4d850e797f87daeaf8050a6c0486fbe204844d1a55d818c54d23",
-    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
+    "mode": "gateway",
+    "slug": "domains",
+    "gatewaySlug": "domains",
+    "sourceHash": "v1-dd0d77164bad36a5f4d7f97ffda7fd453397b55ef501cfb6acada72d47224e32",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
