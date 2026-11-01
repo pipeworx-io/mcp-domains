@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-domains",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Domains MCP — domain registration lookup + availability search over live RDAP (ICANN standard, keyless). We own this end-to-end — no dependency on gated third-party domain APIs. Availability queries the AUTHORITATIVE registry RDAP server per TLD (resolved via the IANA bootstrap), not the flaky rdap.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "domains",
     "gatewaySlug": "domains",
-    "sourceHash": "v1-dd0d77164bad36a5f4d7f97ffda7fd453397b55ef501cfb6acada72d47224e32",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-ba7f219fa607384f68b652ea9de4bfde9a1dd97d17eddd1745350bc6dda696ee",
+    "sourceCommit": "e707a4bb6209f432984c0a83bf64b3138130db89"
   }
 }
